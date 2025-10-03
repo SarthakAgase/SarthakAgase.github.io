@@ -1,0 +1,9 @@
+.cursor {
+  color: rgb(244, 244, 126);
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
